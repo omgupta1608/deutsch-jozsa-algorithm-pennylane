@@ -1,8 +1,5 @@
 # Deutsch-Jozsa Algorithm
-
-## Project Description
-
-This project implements the Deutsch-Jozsa algorithm using PennyLane. The Deutsch-Jozsa algorithm is one of the first quantum algorithms that demonstrates a clear quantum advantage over classical algorithms. It determines whether a function f: {0,1}^n → {0,1} is constant (returns the same value for all inputs) or balanced (returns 0 for half the inputs and 1 for the other half) using only a single query to the function, compared to 2^(n-1) + 1 queries required classically.
+The Deutsch-Jozsa algorithm is one of the first quantum algorithms that demonstrates a clear quantum advantage over classical algorithms. It determines whether a function f: {0,1}^n → {0,1} is constant (returns the same value for all inputs) or balanced (returns 0 for half the inputs and 1 for the other half) using only a single query to the function, compared to 2^(n-1) + 1 queries required classically.
 
 The implementation demonstrates:
 - Oracle function construction for constant and balanced functions
